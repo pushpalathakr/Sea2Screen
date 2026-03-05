@@ -1,0 +1,106 @@
+body{
+font-family: Arial;
+margin:0;
+background:#e0f7fa;
+color:#000;
+transition:0.4s;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#0077b6;
+padding:10px 20px;
+color:white;
+}
+
+.logo-container{
+display:flex;
+align-items:center;
+}
+
+.logo{
+width:50px;
+height:50px;
+border-radius:50%;
+margin-right:10px;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+#modeToggle{
+background:white;
+border:none;
+padding:8px;
+cursor:pointer;
+border-radius:5px;
+}
+
+.search-section{
+text-align:center;
+padding:30px;
+}
+
+#searchInput{
+padding:10px;
+width:250px;
+border-radius:5px;
+border:1px solid gray;
+}
+
+.fish-container{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+padding:20px;
+}
+
+.fish-card{
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+width:200px;
+text-align:center;
+}
+
+.fish-card img{
+width:100%;
+border-radius:10px;
+}
+
+footer{
+text-align:center;
+background:#0077b6;
+color:white;
+padding:10px;
+margin-top:20px;
+}
+
+/* DARK MODE */
+
+.dark-mode{
+background:#121212;
+color:white;
+}
+
+.dark-mode header{
+background:#001f3f;
+}
+
+.dark-mode .fish-card{
+background:#1f1f1f;
+color:white;
+}
